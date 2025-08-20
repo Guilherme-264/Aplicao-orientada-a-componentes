@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 2px solid;
+    height: 20ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section{
+    margin: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#contador button{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+#grupoImagens{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+
+}
+.cardImg{
+    flex: 0 1 calc((100% - 45px ) / 4);
+}
+
+@media (max-width: 765px){
+    .cardImg{
+        flex: 0 1 calc((100% - 45px ) / 3);
+}
+}

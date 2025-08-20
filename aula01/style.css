@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gray;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: lightgray;
+}
+
+section{
+    padding: 20px;
+    width: 50%;
+}
+
+footer{
+    background-color: gray;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-angular{
+    width: 500px;
+    position: absolute;
+    top: 20vh;
+    right: 150px;  
+}
+
+.margin-right{
+    margin-right: 50px;
+}
+.final-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

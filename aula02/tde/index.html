@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Projeto Interativo</h1>
+        <nav>
+            <button id="btnContador">Contador interativo</button>
+            <button id="btnGaleria"> Galeria de imagens</button>
+            <button id="btnClaro">Tema claro</button>
+            <button id="btnEscuro">Tema escuro</button>
+        </nav>
+    </header>
+    <main>
+        <section id="contador">
+            <h2>Contador Interativo</h2>
+            <input type="number" placeholder="Número de passos">
+            <button id="incremento">+</button>
+            <span>0</span>
+            <button id="decremento">-</button>
+        </section>
+        
+        <section style="display: none;" id="galeria">
+            <h2>Royal Enfield</h2>
+            <div id="grupoImagens">
+                <div class="cardImg">
+                    <img src="https://mobilidade.estadao.com.br/wp-content/uploads/2022/08/Hunter-350-Branca.jpg" alt="hunter">
+                </div>
+
+                <div class="cardImg">
+                    <img src="https://images.hindustantimes.com/auto/img/2024/01/15/1600x900/Royal_Enfield_Shotgun_650_review_1705301937508_1705311914141.jpg" alt="shotgun">
+                </div>
+
+                <div class="cardImg">
+                    <img src="https://www.webmotors.com.br/wp-content/uploads/2023/11/06150052/Royal-Enfield-Himalayan-450-5.webp" alt="himalayan">
+                </div>
+
+                <div class="cardImg">
+                    <img src="https://s2-g1.glbimg.com/qpNzp_r-n9k8srmXa_iAUW5uC8I=/0x0:8192x5464/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/f/N/DKw1hsRZK4P3tFW6mP1Q/royal-enfield-guerrilla-450-brava-blue-2-.jpg" alt="guerrilla">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
