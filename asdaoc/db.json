@@ -1,0 +1,60 @@
+{
+  "produtos": [
+    {
+      "nome": "Notebook Gamer",
+      "descricao": "Notebook gamer de alta performance com placa de vídeo dedicada",
+      "preco": 3799.98,
+      "imagem": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+      "estoque": 10,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Mouse Sem Fio",
+      "descricao": "Mouse ergonômico sem fio com bateria de longa duração",
+      "preco": 89.9,
+      "imagem": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+      "estoque": 14
+    },
+    {
+      "nome": "Teclado Mecânico",
+      "descricao": "Teclado mecânico RGB com switches Cherry MX",
+      "preco": 500,
+      "imagem": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+      "estoque": 5,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nome": "Monitor 4K",
+      "descricao": "Monitor 27 polegadas 4K UHD com tecnologia IPS",
+      "preco": 1200,
+      "imagem": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+      "estoque": 7
+    },
+    {
+      "id": 5,
+      "nome": "Webcam HD",
+      "descricao": "Webcam Full HD 1080p com microfone integrado",
+      "preco": 199.9,
+      "imagem": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500",
+      "estoque": 12
+    },
+    {
+      "nome": "fan",
+      "descricao": "fan 120mm com led",
+      "preco": 15.99,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/745260/fan_cooler_pc_gamer_led_rgb_120mm_ventoinha_gabinete_133_1_a3400f45441dc7d659be138dffc9dcba.jpg",
+      "estoque": 8,
+      "id": 6
+    },
+    {
+      "nome": "ps5",
+      "descricao": "ps5 slim",
+      "preco": 3000,
+      "imagem": "https://api.store.vivo.com.br/medias/96Wx96H-22024425-Console-Ps5-Slim-Disk-App-.jpg?context=bWFzdGVyfHByb2R1Y3RpbWFnZXN8MzUzM3xpbWFnZS9qcGVnfGFHUm1MMmd6TlM4NU5qTTFNelF3TmpRNE5EYzRMemsyVjNnNU5raGZNakl3TWpRME1qVmZRMjl1YzI5c1pTMVFjelV0VTJ4cGJTMUVhWE5yWHlBb1FYQndLUzVxY0djfDdkODVhNDY1MzBiZGJhZDZjZmQwZTdjZDM2ODViNGM0YWFlYmNmNjU1NzkyMWE5MTVlY2MxMDJhNTlhMmI3YzU",
+      "estoque": 3,
+      "id": 7
+    }
+  ]
+}
